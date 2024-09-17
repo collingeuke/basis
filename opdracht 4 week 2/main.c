@@ -3,7 +3,7 @@
 int main() {
     char charcter;
     printf("Geef een karakter: ");
-    scanf(" %c", &charcter);
+    scanf_s(" %c", &charcter);
     int index = charcter - 'a';
     printf("De index van het karakter is: %d\n", index);
     return 0;
