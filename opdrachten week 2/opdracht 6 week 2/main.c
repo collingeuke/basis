@@ -1,13 +1,16 @@
 #include <stdio.h>
 
 int main() {
-    int teller = 0;
+    int i = 0;
+
     while (1) {
-        teller = teller + 1;
-        printf("%d\n", teller);
-        if (teller < 0) {
+        i++;
+
+        // Check for overflow
+        if (i < 0) {
             break;
         }
     }
+
     return 0;
 }
