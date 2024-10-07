@@ -1,0 +1,7 @@
+﻿  main.c
+C:\Users\colli\source\Repos\basis\opdrachten week 4\opdracht 3 week 4\main.c(4,6): warning C4047: 'initializing': 'int' differs in levels of indirection from 'int *'
+C:\Users\colli\source\Repos\basis\opdrachten week 4\opdracht 3 week 4\main.c(17,8): warning C4047: 'function': 'int *' differs in levels of indirection from 'int'
+C:\Users\colli\source\Repos\basis\opdrachten week 4\opdracht 3 week 4\main.c(17,8): warning C4024: 'Swap': different types for formal and actual parameter 1
+C:\Users\colli\source\Repos\basis\opdrachten week 4\opdracht 3 week 4\main.c(17,11): warning C4047: 'function': 'int *' differs in levels of indirection from 'int'
+C:\Users\colli\source\Repos\basis\opdrachten week 4\opdracht 3 week 4\main.c(17,11): warning C4024: 'Swap': different types for formal and actual parameter 2
+C:\Users\colli\source\Repos\basis\opdrachten week 4\opdracht 3 week 4\main.c(17,14): error C2197: 'void Swap(int *,int *)': too many arguments for call
