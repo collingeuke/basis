@@ -6,8 +6,8 @@ double gemiddeld(int a, int b, int c, int d) {
 
 int main() {
     int a, b, c, d;
-    printf("Enter four integers: ");
-    scanf("%d %d %d %d", &a, &b, &c, &d);
+    printf_s("Enter four integers: ");
+    scanf_s("%d %d %d %d", &a, &b, &c, &d);
     double result = gemiddeld(a, b, c, d);
     printf("The average is: %f\n", result);
     return 0;
