@@ -1,27 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\colli\\source\\Repos\\basis\\",
+  "WorkspaceRootPath": "C:\\Users\\colli\\source\\repos\\collingeuke\\basis\\",
   "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-<<<<<<< HEAD
       "DocumentGroups": []
-=======
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            }
-          ]
-        }
-      ]
->>>>>>> debc4e761e7d093c4d0c7ca2360095fe94b22a6c
     }
   ]
 }
