@@ -2,37 +2,43 @@
 
 int main() {
     int n;
-    int a;
+    int som = 0;
     printf_s("Voer een getal in: ");
     scanf_s("%d", &n);
-
-    a = priem(n);
-    printf_s("%d", a);
+    for (int i = 2; i <= n; i++)
+    {
+        if (priem(i))
+        {
+            som += i;
+        }
+    }
+    printf_s("%d", som);
+    return 0;
 }
+
 
 
 int priem(int n)
 {
     int c = 0;
-    int som = 0;
     for (int i = 1; i <= n; i++)
     {
         if (n % i == 0)
         {
             c++;
-            if( c )
         }
         else
         {
             continue;
         }
-        c % 2 == 0)
-        
-            som += i;
-        
-    }
-  
-    
-    return som;
 
+    }
+    if (c == 2)
+    {
+        return 1;
+    }
+    else
+    {
+        return 0;
+    }
 }
