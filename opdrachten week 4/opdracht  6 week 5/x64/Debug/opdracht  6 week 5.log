@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\colli\source\Repos\basis\opdrachten week 4\opdracht  6 week 5\main.c(8,18): warning C4013: 'lcm' undefined; assuming extern returning int
+main.obj : error LNK2019: unresolved external symbol lcm referenced in function kleinsteSomDeler
+C:\Users\colli\Source\Repos\basis\opdrachten week 4\x64\Debug\opdracht  6 week 4.exe : fatal error LNK1120: 1 unresolved externals
